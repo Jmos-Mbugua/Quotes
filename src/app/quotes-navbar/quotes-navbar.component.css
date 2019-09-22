@@ -1,0 +1,11 @@
+nav {
+    background-color: green;
+    font-family: 'Satisfy', cursive;
+    
+   
+}
+.navbar-header a {
+    font-size: 30px;
+    text-align: center;
+    color: yellow;
+}

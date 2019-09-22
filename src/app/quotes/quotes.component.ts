@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./quotes.component.css']
 })
 export class QuotesComponent implements OnInit {
-  pgTitle: string = 'QuotesBook'
+  // pgTitle: string = 'QuotesBook'
 
   constructor() { }
 
