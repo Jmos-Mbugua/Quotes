@@ -1,27 +1,35 @@
 # Quotes
+This Website Contains information about Quotes. it allows the user to read different inspirational quotes, add quotes as well as vote for or against different quotes.
+### Author
+* John Mbugua
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
+### setup
+* Clone this repo through git clone https://github.com/Jmos-Mbugua/Quotes
+* Extract the file into your preferred location
+* Navigate to the files through the terminal.
+* Open the application through https://jmos-mbugua.github.io/Quotes/
+### Technologies used
+* HTML
+* CSS
+* Bootstrap
+* jQuery
+* Javascript
+* Angular
+### BDD
+| Behaviour    | input     | output     |
+| -------------| :--------:| -----------|
+|Page Loads  | User navigates through the application |User is able to access and read through the existing quotes |
+|Upvote and downvoting a quote|User clicks on either the upvoting or downvoting buttons|The number of upvotes/downvotes increases by one|
+|Delete button|The user clicks the delete quote button|The quote is deleted from the quotes|
+|Add quote form|User inputs his/her quote, name and the quote's author|The quote is added to the custom quotes|
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Known Bugs
+The webApp is not highlighting the total number of upvotes or downvotes in the quotes
+### License
+This project is Licensed under MIT.
+©2019 Copyright.
+### Collaborate
+>To Collaborate, Reach me out at:
+>>Github: Jmos-Mbugua
+>>Email: johnmbugua849@gmail.com
+>>Livelink: https://jmos-mbugua.github.io/Quotes/
