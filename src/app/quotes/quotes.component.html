@@ -1,22 +1,38 @@
 <div class="container">
-<div class="card">
-    <div class="card-body">
-        <p class="text-align-center col-md-7">Fear of God is the beginning of wisdom</p>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card bg-transparent">
+               <div class="card  bg-transparent quotecard" *ngFor="let quote of quotes; let i = index">
+                    <div class="card-body">
+                            <div class="row w-60">
+                                <div class="col-md-12" id="{{i}}">
+                                    {{quote.quote}}
+                                </div>
+                                <div class="col-md-12">
+                                  --  {{quote.author}}
+                                </div>
+                                <div class="col-md-12 text-white">
+                                    Submitted by: <span id="user">{{quote.name}}</span>
+                                    <span id="dateofsubmission" class="text-primary"> {{quote.mdate | datecount}}</span>
+                                </div>
+                                <div class="col-md-12">
+                                    <span class="badge badge-pill badge-success" (click)='thumbsUp(quote)'>
+                                        upvote <span class="text-white"> {{quote.upvotes}}</span>
+                                    </span>
+                                    <span class="badge badge-pill badge-warning" (click) ='thumbsDown(quote)'>
+                                        downvote<span class="text-dark"> {{quote.downvotes}}</span>
+                                    </span>
+                                    <span class="badge badge-pill badge-danger float-right" (click)='deleteQuote($event, i)'>
+                                        delete
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+               </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <quotes-form (addQuote)="addNewQuote($event)"></quotes-form>
+        </div>
     </div>
-</div>
-<div class="card">
-    <div class="card-body">
-        <p class="text-align-center col-md-7">If You can't find the sunshine, be the sunshine</p>
-    </div>
-</div>
-<div class="card">
-    <div class="card-body">
-        <p class="text-align-center col-md-7">The grass is greener where you water it</p>
-    </div>
-</div>
-<div class="card">
-    <div class="card-body">
-        <p class="text-align-center col-md-7">Wherever life plants you, bloom with grace</p>
-    </div>
-</div>
 </div>
