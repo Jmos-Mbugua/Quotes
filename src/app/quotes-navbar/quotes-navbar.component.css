@@ -1,5 +1,5 @@
 nav {
-    background-color: green;
+    background-color: black;
     font-family: 'Satisfy', cursive;
     
    
@@ -7,5 +7,9 @@ nav {
 .navbar-header a {
     font-size: 30px;
     text-align: center;
-    color: yellow;
+    color: white;
+}
+
+button {
+    align-content: left;
 }
