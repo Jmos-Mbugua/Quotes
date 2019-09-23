@@ -1,3 +1,4 @@
+import { QuotesComponent } from './../quotes/quotes.component';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,11 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./quotes-navbar.component.css']
 })
 export class QuotesNavbarComponent implements OnInit {
+  
+   constructor() { }
 
+  ngOnInit(){
 
-  constructor() { }
-
-  ngOnInit() {
   }
 
 }
