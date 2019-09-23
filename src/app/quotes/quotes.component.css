@@ -1,0 +1,15 @@
+#name {
+    font-style: italics;    
+}
+
+.quotes-input {
+    border-radius: 15px;
+}
+.badge{
+    margin: 10px;
+    cursor: pointer;
+
+}
+.quotecard{
+    margin: 20px;
+}
